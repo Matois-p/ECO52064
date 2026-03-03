@@ -453,7 +453,7 @@ comparison_matrix = pd.DataFrame(
         "overcost if positive / gain if negative, €_2026",
         "CO2 emissions actualised in tCO2_2026",
         "€/tCO2",
-        "Total present costs with tax, €_2026",
+        "(With carbon tax) overcost if positive / gain if negative, €_2026",
     ],
 )
 st.table(comparison_matrix)
